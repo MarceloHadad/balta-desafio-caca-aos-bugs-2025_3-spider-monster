@@ -1,6 +1,6 @@
-namespace BugStore.Models;
+namespace BugStore.Responses.Products;
 
-public class Product
+public class CreateProductResponse
 {
     public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;

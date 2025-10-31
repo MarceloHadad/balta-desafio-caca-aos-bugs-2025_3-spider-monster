@@ -1,6 +1,6 @@
-namespace BugStore.Models;
+namespace BugStore.Requests.Products;
 
-public class Product
+public class UpdateProductRequest
 {
     public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;

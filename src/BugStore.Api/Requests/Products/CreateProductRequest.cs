@@ -1,8 +1,7 @@
-namespace BugStore.Models;
+namespace BugStore.Requests.Products;
 
-public class Product
+public class CreateProductRequest
 {
-    public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string Slug { get; set; } = string.Empty;
